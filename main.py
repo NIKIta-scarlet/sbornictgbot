@@ -34,7 +34,7 @@ async def cmd_start(message: Message):
     photo_url = 'https://vk.com/club237429724?z=photo-237429724_457239018%2F7f6b50b77953b75d13'
 
     await message.answer_photo(
-        photo=photo_url,
+        photo=photo_url,)
     
     msg1 = (f"Привет, {first_name}! 👋\n"
             f"Я твой персональный учебный ассистент. Я помогу тебе закрепить знания "
@@ -45,7 +45,7 @@ async def cmd_start(message: Message):
             "А) Выдать случайную задачку на логику\n"
             "Б) Проверить твой ответ и подобрать похожую задачку если ты ошибся\n"
             "Чтобы начать, нажми кнопочку /get или впиши ее вручную")
-    )
+    
     await message.answer(msg1)
     await message.answer(msg2)
 
