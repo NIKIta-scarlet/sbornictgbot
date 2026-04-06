@@ -45,7 +45,7 @@ async def cmd_start(message: Message):
             "А) Выдать случайную задачку на логику\n"
             "Б) Проверить твой ответ и подобрать похожую задачку если ты ошибся\n"
             "Чтобы начать, нажми кнопочку /get или впиши ее вручную")
-    
+    )
     await message.answer(msg1)
     await message.answer(msg2)
 
